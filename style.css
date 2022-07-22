@@ -1,0 +1,167 @@
+/*----------------*/
+* {
+   padding: 0;
+   margin: 0;
+   border: 0;
+   box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+:focus,
+:active {
+   outline: none;
+}
+
+a:focus,
+a:active {
+   outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+   display: block;
+}
+
+html,
+body {
+   height: 100%;
+   width: 100%;
+   font-size: 100%;
+   line-height: 1;
+   font-size: 14px;
+   -ms-text-size-adjust: 100%;
+   -moz-text-size-adjust: 100%;
+   -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+   font-family: inherit;
+}
+
+input::-ms-clear {
+   display: none;
+}
+
+button {
+   cursor: pointer;
+}
+
+button::-moz-focus-inner {
+   padding: 0;
+   border: 0;
+}
+
+a,
+a:visited {
+   text-decoration: none;
+}
+
+a:hover {
+   text-decoration: none;
+}
+
+ul li {
+   list-style: none;
+}
+
+img {
+   vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-size: inherit;
+   font-weight: 400;
+}
+
+/*--------------------*/
+
+
+body {
+   background-color: #EDEEF0;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+}
+
+.container {
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   max-width: 600px;
+   padding: 20px;
+   background-color: #ffffff;
+   margin: 30px;
+   border-radius: 10px;
+   box-shadow: 5px 5px 15px grey;
+}
+
+img {
+	width: 100%;
+   height: 100%;
+   padding: 30px;
+}
+
+
+.btn {
+   display: inline-block;
+   text-decoration: none;
+   color: rgb(0, 0, 0);
+   padding: 3px;
+   position: relative;
+   overflow: hidden;
+   margin-left: 4px;
+}
+
+.btn::before {
+   content: "";
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 200%;
+   height: 100%;
+   background:
+      linear-gradient(115deg,
+         #4fcf70, #fad648,
+         #a767e5, #12bcfe,
+         #44ce7b);
+   background-size: 50% 100%;
+   border-radius: inherit;
+}
+
+.btn:hover::before {
+   animation: animate_border .75s linear infinite;
+}
+
+.btn span {
+   color: #fff;
+   display: block;
+   background-color: black;
+   padding: 1px 10px;
+   border-radius: 5px;
+   position: relative;
+   z-index: 2;
+}
+
+@keyframes animate_border {
+   to {
+      transform: translateX(-50%);
+   }
+}
