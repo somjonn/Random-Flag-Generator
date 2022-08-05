@@ -7,9 +7,8 @@ Click the button and get a random flag
 
 
 
+![random1](https://user-images.githubusercontent.com/106537238/183045423-f60ba775-0f71-49dc-86f4-4d4018466241.PNG)
 
 
 
-![random1](https://user-images.githubusercontent.com/106537238/183044880-50ae3f29-9633-4c30-a9a1-c125e1f5d46f.PNG)
-
-![random2](https://user-images.githubusercontent.com/106537238/183044873-c74ca5af-b0d8-47b1-b661-f6cdb8f30768.PNG)
+![random2](https://user-images.githubusercontent.com/106537238/183045425-91aa5a95-a0a2-4a65-b58e-fc2a4a5d2324.PNG)
